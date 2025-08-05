@@ -186,5 +186,5 @@ bash start
 ---
 
 <p align="center">
-  ᴄʀᴀғᴛᴇᴅ ᴡɪᴛʜ ʙʏ <strong>sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ</strong>
+  ᴄʀᴀғᴛᴇᴅ ᴡɪᴛʜ ʙʏ <strong>ᴠɪʙє ʙσᴛs [🇮🇳]</strong>
 </p>
