@@ -7,7 +7,6 @@ from AnonMusic.core.call import Anony, autoend
 from AnonMusic.utils.database import get_client, is_active_chat, is_autoend
 from pyrogram.enums import ChatType
 
-# AUTO LEAVE ASSISTANTS
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(config.ASSISTANT_LEAVE_TIME):
@@ -34,32 +33,4 @@ async def auto_leave():
 asyncio.create_task(auto_leave())
 
 
-# AUTO END INACTIVE STREAMS
-async def auto_end():
-    if config.AUTO_END_VC_STREAM:
-        while not await asyncio.sleep(5):
-            ender = await is_autoend()
-            if not ender:
-                continue
-            for chat_id in autoend:
-                timer = autoend.get(chat_id)
-                if not timer:
-                    continue
-                if datetime.now() > timer:
-                    if not await is_active_chat(chat_id):
-                        autoend[chat_id] = {}
-                        continue
-                    autoend[chat_id] = {}
-                    try:
-                        await Anony.stop_stream(chat_id)
-                    except:
-                        continue
-                    try:
-                        await app.send_message(
-                            chat_id,
-                            "» ʙᴏᴛ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʟᴇғᴛ ᴠɪᴅᴇᴏᴄʜᴀᴛ ʙᴇᴄᴀᴜsᴇ ɴᴏ ᴏɴᴇ ᴡᴀs ʟɪsᴛᴇɴɪɴɢ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
-                        )
-                    except:
-                        continue
-
-asyncio.create_task(auto_end())
+# Auto End Stream Remove 
