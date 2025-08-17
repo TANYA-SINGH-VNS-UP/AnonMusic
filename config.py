@@ -65,7 +65,7 @@ CACHE_DURATION = validate_env_var("CACHE_DURATION", cast_type=int, default=86400
 CACHE_SLEEP = validate_env_var("CACHE_SLEEP", cast_type=int, default=3600)
 
 
-STRING1 = getenv("STRING_SESSION1")
+STRING1 = getenv("STRING_SESSION")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
