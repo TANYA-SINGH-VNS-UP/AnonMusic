@@ -39,13 +39,13 @@ DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=3
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheAloneTech/ScyMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TANYA-SINGH-VNS-UP/AnonMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIBEBOTS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VIBEBOTSSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+frNpAnPayWplZDBl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+qaTcyac4_HhhNTk1")
 
 AUTO_END_VC_STREAM = getenv("AUTO_END_VC_STREAM", "false").lower() in ("true", "1")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false").lower() in ("true", "1")
@@ -65,7 +65,7 @@ CACHE_DURATION = validate_env_var("CACHE_DURATION", cast_type=int, default=86400
 CACHE_SLEEP = validate_env_var("CACHE_SLEEP", cast_type=int, default=3600)
 
 
-STRING1 = getenv("STRING_SESSION")
+STRING1 = getenv("STRING_SESSION1")
 STRING2 = getenv("STRING_SESSION2")
 STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
@@ -81,19 +81,19 @@ confirmer = {}
 file_cache: dict[str, float] = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/vjn7tb.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/4s0omp.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/gtd7dg.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/gtd7dg.jpg")
 
-PLAYLIST_IMG_URL = "https://files.catbox.moe/v7u8ji.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/7g7j9f.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/fahcob.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/gtd7dg.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/gy14qk.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/h0m0wz.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ieduw9.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/rnwmfw.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/66ye0m.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/66ye0m.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/66ye0m.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/gtd7dg.jpg"
 
 
 def time_to_seconds(time):
