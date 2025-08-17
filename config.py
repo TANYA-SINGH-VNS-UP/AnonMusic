@@ -28,7 +28,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 # 🔐 Get your secret key from Scy — xD: @ScyxD | Get Free Key : @KeyMakerRoBot
 # 📦 Make sure to add all required variables in your .env file.
 BASE_API_URL = getenv("BASE_API_URL", "https://tgmusic.fallenapi.fun")
-BASE_API_KEY = getenv("e89af3_CH5Tx5EI36BOaIu89hN2n4koNWx569ZO")
+BASE_API_KEY = getenv("0be482_U2cunueLGetvX4eQKfOmmZw-64g71y_C")
 
 # promotion website like : Api Docs etc etc..., Please Don't Change This
 WEBSITE = getenv("WEBSITE", "https://tgmusic.fallenapi.fun")
