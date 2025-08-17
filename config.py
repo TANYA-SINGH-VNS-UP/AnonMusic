@@ -32,11 +32,7 @@ BASE_API_KEY = getenv("0be482_U2cunueLGetvX4eQKfOmmZw-64g71y_C")
 
 # promotion website like : Api Docs etc etc..., Please Don't Change This
 WEBSITE = getenv("WEBSITE", "https://tgmusic.fallenapi.fun")
-COOKIES_URL = getenv("# Netscape HTTP Cookie File
-# http://curl.haxx.se/rfc/cookie_spec.html
-# This is a generated file!  Do not edit.
-
-.youtube.com	TRUE	/	FALSE	1789141806	SID	g.a000zwj8AW-3PIlc0cyb6_nmKVSROFQQjhKUfTYeCCaf_QLFbt1S_FmDBTN8LszePLBL7IIUVQACgYKAZgSARESFQHGX2Mi26UuULXqxdiCVnZSMd5zcRoVAUF8yKotLmv40kf7a6UCNQCeDWA10076
+COOKIES_URL = getenv(".youtube.com	TRUE	/	FALSE	1789141806	SID	g.a000zwj8AW-3PIlc0cyb6_nmKVSROFQQjhKUfTYeCCaf_QLFbt1S_FmDBTN8LszePLBL7IIUVQACgYKAZgSARESFQHGX2Mi26UuULXqxdiCVnZSMd5zcRoVAUF8yKotLmv40kf7a6UCNQCeDWA10076
 .youtube.com	TRUE	/	TRUE	1789141806	__Secure-1PSID	g.a000zwj8AW-3PIlc0cyb6_nmKVSROFQQjhKUfTYeCCaf_QLFbt1S2N8kXcSwNUsZI0ilco41tgACgYKAfQSARESFQHGX2MigBm04qqJ03G_dmL0UhxSZxoVAUF8yKo8BI_jUxzrVY1odLD5IFkL0076
 .youtube.com	TRUE	/	TRUE	1789141806	__Secure-3PSID	g.a000zwj8AW-3PIlc0cyb6_nmKVSROFQQjhKUfTYeCCaf_QLFbt1SgOkmXnnqJ3fbDCBmLCwkbgACgYKAXgSARESFQHGX2MidtqADyAV2p3NAyWsY5cRRxoVAUF8yKowPgoyc334xwl2V8rxeVVB0076
 .youtube.com	TRUE	/	FALSE	1789141806	HSID	ADlHjuvnLBzf8UDs4
