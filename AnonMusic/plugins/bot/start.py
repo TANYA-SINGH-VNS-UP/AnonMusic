@@ -164,7 +164,7 @@ async def welcome(client, message: Message):
                 if (ch.title and re.search(r'[\u1000-\u109F]', ch.title)) or \
                         (ch.description and re.search(r'[\u1000-\u109F]', ch.description)):
                     await blacklist_chat(message.chat.id)
-                    await message.reply_text("🚫 This group is not allowed to play songs\n\n⚙️ Contact us : @VibeBoysSupport")
+                    await message.reply_text("🚫 This group is not allowed to play songs\n\n⚙️ Contact us : @HEROKU_CLUB")
                     await app.send_message(LOGGER_ID, f"🚫 This group has been blacklisted automatically due to Myanmar characters in the chat title, description or message \n Title:{ch.title} \n ID:{message.chat.id}\n\n⚙️ Contact Any Admin : @VibeBotsSupport")
                     return await app.leave_chat(message.chat.id)
 
