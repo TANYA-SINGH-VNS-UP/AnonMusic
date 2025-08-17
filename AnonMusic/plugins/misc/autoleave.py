@@ -19,7 +19,7 @@ async def auto_leave():
                 try:
                     async for i in client.get_dialogs():
                         if i.chat.type in [ChatType.SUPERGROUP, ChatType.GROUP, ChatType.CHANNEL]:
-                            if i.chat.id not in [config.LOGGER_ID, -1002500829755, -1002204995394]:
+                            if i.chat.id not in [config.LOGGER_ID, -1001511253627, -1001511253627]:
                                 if left == 20:
                                     continue
                                 if not await is_active_chat(i.chat.id):
