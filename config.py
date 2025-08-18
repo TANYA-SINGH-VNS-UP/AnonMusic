@@ -44,8 +44,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+frNpAnPayWplZDBl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+qaTcyac4_HhhNTk1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+p_QWPsqeaS40M2Nl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+p_QWPsqeaS40M2Nl")
 
 AUTO_END_VC_STREAM = getenv("AUTO_END_VC_STREAM", "false").lower() in ("true", "1")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false").lower() in ("true", "1")
